@@ -1,0 +1,21 @@
+{
+  "name": "minor_project_2_qr_code_classifier_backend",
+  "version": "1.0.0",
+  "description": "Learning To Make A QR Code Backend API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vivek Shankar Phadake",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^2.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "express-validators": "^1.0.4",
+    "mongoose": "^8.4.1",
+    "multer": "^1.4.5-lts.1"
+  }
+}
