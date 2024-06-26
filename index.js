@@ -3,9 +3,10 @@ import ConnectToDB from './db.js';
 import dotenv from 'dotenv';
 import router from './routes/qrAPIroute.js';
 
-const app = express();
-const port = 7000;
 dotenv.config();
+
+const app = express();
+const port = process.env.PORT || 5000;
 
 ConnectToDB();
 
